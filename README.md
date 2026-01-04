@@ -39,7 +39,8 @@ An intelligent CRM automation system that uses **Google Gemini AI** and **LangGr
 ---
 
 ## 🏗️ Architecture
-<img width="1376" height="768" alt="85a166f2-f394-4d0d-8953-5636ba5b0583" src="https://github.com/user-attachments/assets/4c07750f-bfac-40a6-93af-6e66be021c29" />
+![Generated Image January 04, 2026 - 3_42PM](https://github.com/user-attachments/assets/6f3e469a-0341-43f7-96a2-403bb5f210f2)
+
 
 ```mermaid
 graph LR
