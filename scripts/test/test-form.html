@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовая форма для amoCRM</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .info {
+            background: #f0f8ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .info h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        .steps {
+            background: #fff9e6;
+            border-left: 4px solid #ffa500;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .steps ol {
+            margin: 10px 0 0 0;
+            padding-left: 20px;
+        }
+        .steps li {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Тестовая форма лидов</h1>
+        <p class="subtitle">Заполните форму ниже, чтобы создать тестовый лид в amoCRM</p>
+        
+        <div class="info">
+            <h3>📋 Как это работает:</h3>
+            <p>После отправки формы:</p>
+            <ul>
+                <li>Лид автоматически появится в вашей amoCRM</li>
+                <li>Через ~15 минут (или при следующем цикле) AI агент его проанализирует</li>
+                <li>Вы получите карточку в Telegram с рекомендацией</li>
+            </ul>
+        </div>
+
+        <div class="steps">
+            <h3>🚀 Шаги для тестирования:</h3>
+            <ol>
+                <li>Откройте этот файл в браузере</li>
+                <li>Заполните форму ниже (можно фейковыми данными)</li>
+                <li>Отправьте форму - лид создастся в amoCRM</li>
+                <li>Запустите бота: <code>start-clean.bat</code></li>
+                <li>Дождитесь анализа (покажет в консоли)</li>
+                <li>Проверьте Telegram - придёт карточка</li>
+            </ol>
+        </div>
+
+        <h2>📝 Форма заявки</h2>
+        
+        <!-- Ваш виджет amoCRM -->
+        <script>
+            !function(a,m,o,c,r,m){
+                a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},
+                a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},
+                a[o+r]({
+                    id:"1649130",
+                    hash:"82dc76571e7a85e95249dabfef111e3c",
+                    locale:"ru"
+                }),
+                a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}
+            }(window,0,"amo_forms_","params","load","loaded");
+        </script>
+        <script id="amoforms_script_1649130" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1766698542"></script>
+        
+        <div style="margin-top: 30px; padding: 15px; background: #e8f5e9; border-radius: 5px;">
+            <p><strong>💡 Совет:</strong> Создайте 2-3 тестовых лида с разными сценариями:</p>
+            <ul>
+                <li>Свежий лид (только что создан)</li>
+                <li>Старый лид (создайте, подождите несколько дней)</li>
+                <li>Лид с задачами vs без задач</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

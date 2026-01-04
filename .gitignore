@@ -1,0 +1,47 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.test
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+data/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+auth_code.txt
+*.pem
+*.key
+
+# Build
+dist/
+build/
+
+# Scripts output
+scripts/temp/
+scripts/*.log
+
+# Demo assets (optional - keep these if you want to commit screenshots)
+# screenshots/
+# recordings/
